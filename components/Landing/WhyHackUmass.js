@@ -128,11 +128,11 @@ export default function WhyHackUmass() {
                 <p className="p1">Welcome to HackUMass, a 36-hour hackathon where college students come together to learn, connect, and build their dream projects.</p>
             </div>
             <div className="LandingAboutContent">
-                <Image src="/WhyHackers.png" id="why1" sizes={2000} width={0} height={0} priority={true} />
-                <Image src="/WhyDining.png" id="why2" sizes={2000} width={0} height={0} priority={true} />
-                <Image src="/WhyHardware.png" id="why3" sizes={2000} width={0} height={0} priority={true} />
-                <Image src="/WhySponsors.png" id="why4" sizes={2000} width={0} height={0} priority={true} />
-                <Image src="/WhyVenue.png" id="why5" sizes={2000} width={0} height={0} priority={true} />
+                <Image src="/WhyHackUmass/WhyHackers.png" id="why1" sizes={2000} width={0} height={0} priority={true} />
+                <Image src="/WhyHackUmass/WhyDining.png" id="why2" sizes={2000} width={0} height={0} priority={true} />
+                <Image src="/WhyHackUmass/WhyHardware.png" id="why3" sizes={2000} width={0} height={0} priority={true} />
+                <Image src="/WhyHackUmass/WhySponsors.png" id="why4" sizes={2000} width={0} height={0} priority={true} />
+                <Image src="/WhyHackUmass/WhyVenue.png" id="why5" sizes={2000} width={0} height={0} priority={true} />
             </div>
             <div className="LandingAboutContentButtons">
                 <button className="LandingAboutContentButton" id="buttwhy1"></button>
