@@ -113,7 +113,7 @@ export default function WhyHackUmass() {
                 buttwhy1.style.backgroundColor = "#ffffff";
             }
             console.log(why1.style.display, why2.style.display, why3.style.display, why4.style.display, why5.style.display);
-        }, 1500);
+        }, 3000);
 
         return () => {
             clearInterval(interval);
@@ -122,7 +122,7 @@ export default function WhyHackUmass() {
     }, [])
 
     return (
-        <div className="LandingAbout">
+        <div className="LandingAbout" id="aboutus">
             <div className="LandingAboutHeader">
                 <h1 className="heading">Why HackUMass?</h1>
                 <p className="p1">Welcome to HackUMass, a 36-hour hackathon where college students come together to learn, connect, and build their dream projects.</p>
