@@ -28,7 +28,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: space-between;
-    margin-top: 50px;
+    margin-top: 20px;
     margin-bottom: 100px;
     padding-left: 100px;
     height: max-content;
@@ -36,7 +36,7 @@
 }
 
 .LandingHeroMainImg {
-    width: 40vw;
+    width: 35vw;
     height: auto;
 }
 
@@ -58,7 +58,7 @@
 
 .LandingHeroBuilding {
     z-index: 0;
-    margin-top: 14rem;
+    margin-top: 100px;
     position: absolute;
     display: flex;
     flex-direction: column;
@@ -229,6 +229,7 @@
 }
 
 /********************************* Footer *********************************/
+
 .Footer {
     display: flex;
     flex-direction: column;
@@ -352,6 +353,9 @@
     margin-bottom: 10px;
     cursor: pointer;
 }
+
+
+/***** Media Queries *****/
 
 @media screen and (max-width: 768px) {
     .LandingContainer {
